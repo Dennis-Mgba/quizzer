@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+            <div id="quizzer">
+                <h1>QUIZZER</h1>
+                <hr>
+                <p id="question"></p>
+                <ul id="buttons">
+                    <li type="button" id="btn0" onclick="button(this)"></li>
+                    <li type="button" id="btn1" onclick="button(this)"></li>
+                    <li type="button" id="btn2" onclick="button(this)"></li>
+                    <li type="button" id="btn3" onclick="button(this)"></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="buttom-section">
+                 <p id="progress">Score : <span id="score"></span></p>
+                 <p id="next" onclick="next()">Next</p>
+            </div>
+            <p id="returnBack">Go back to quiz</p>
+    </section>
+  </main>
+  <footer>
+    <!-- <p> Name &#169; 2020. All rights reserved. </p> -->
+  </footer>
+
+<script  type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

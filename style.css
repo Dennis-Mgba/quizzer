@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    padding-top: 40px;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #cbcbcb;
+    box-shadow: 7px 5px 5px #cbcbcb;
+}
+
+.container h1 {
+    background-color: #4d94ff;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 0px;
+    border-radius: 10px;
+}
+
+#score {
+    text-align: center;
+    color: #5a6772;
+}
+
+#question {
+    font-size: 30px;
+    color: #5a6772;
+    padding: 20px 0;
+}
+
+#progress, #next {
+    color: #5a6772;
+    font-size: 18px;
+}
+
+#next {
+    margin-left: 70%;
+    cursor: pointer;
+}
+
+ #buttons {
+     margin-top: 30px;
+     margin-left: -20px;
+     display: grid;
+ }
+
+
+ #btn0, #btn1, #btn2, #btn3 {
+     background-color: #4d94ff;
+     width: 170px;
+     font-size: 20px;
+     color: #fff;
+     border-radius: 50px;
+     border: 1px solid #1d3c6a;
+     margin: 10px 40px 10px 35px;
+     padding: 10px 0px;
+    list-style-type: none;
+    text-align: center;
+ }
+
+#btn0 { grid-area: 1 / 1 / 2 / 2; }
+#btn1 { grid-area: 1 / 2 / 2 / 3; }
+#btn2 { grid-area: 2 / 1/ 2 / 2; }
+#btn3 { grid-area: 2 / 2 / 3 / 2; }
+
+ #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+     cursor: pointer;
+     background-color: #005ce6;
+ }
+
+ #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+     outline: 0;
+ }
+
+.buttom-section {
+    display: flex;
+}
+
+#returnBack {
+    color: #5a6772;
+    display: none;
+}
+
+#returnBack:hover {
+    cursor: pointer;
+}
